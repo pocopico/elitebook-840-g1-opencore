@@ -39,31 +39,34 @@ WIFI: Intel Wi-Fi Drivers are NOW compatible for macOS, check itlwm.
 
 - Disable
 
-Fast Boot
-Secure Boot
-Serial/COM Port
-Disable wake on USB
-Parallel Port
-VT-d (can be enabled if you set DisableIoMapper to YES)
-CSM
-Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
-Intel SGX
-Intel Platform Trust
-CFG Lock (This must be off, otherwise your hack will not boot with CFG-Lock enabled) if you can't find the option then enable AppleXcpmCfgLock under:
-      Kernel -> Quirks -> AppleXcpmCfgLock=True
+* Fast Boot
+* Secure Boot
+* Serial/COM Port
+* Disable wake on USB
+* Parallel Port
+* VT-d (can be enabled if you set DisableIoMapper to YES)
+* CSM
+* Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
+* Intel SGX
+* Intel Platform Trust
+* CFG Lock (This must be off, otherwise your hack will not boot with CFG-Lock enabled) if you can't find the option then enable AppleXcpmCfgLock under:
+
+>     Kernel -> Quirks -> AppleXcpmCfgLock=True
+
 - Enable
 
-VT-x
-Above 4G decoding
-Hyper-Threading
-Execute Disable Bit
-EHCI/XHCI Hand-off
-OS type: Windows 8.1/10 UEFI Mode
-DVMT Pre-Allocated(iGPU Memory): 64MB
-SATA Mode: AHCI
-Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS.
+* VT-x
 
-Save and reboot in UEFI.
+* Above 4G decoding
+* Hyper-Threading
+* Execute Disable Bit
+* EHCI/XHCI Hand-off
+* OS type: Windows 8.1/10 UEFI Mode
+* DVMT Pre-Allocated(iGPU Memory): 64MB
+* SATA Mode: AHCI
+* Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS.
+
+** Save and reboot in UEFI. **
 
 # Credit:
 
