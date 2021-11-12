@@ -1,4 +1,4 @@
-#Elitebook 840 G1 Haswell,  Opencore 0.7.5
+# Elitebook 840 G1 Haswell,  Opencore 0.7.5
 
 Confirmed to be working with Big Sur 11.6.1
 
