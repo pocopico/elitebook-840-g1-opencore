@@ -31,5 +31,4 @@ Credit:
 - Dortania's Guide for OpenCore Install
 - InsanelyMac's OpenCore forums for finding issues with hardware and their work arounds
 - RehabMan for DSDT-Patches
-- blint01 for Clover configuration guide
 - itlwm Intel Wi-Fi Drivers for macOS
