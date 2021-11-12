@@ -26,14 +26,14 @@ Confirmed to be working with Big Sur 11.6.1
 
 ## Hardware:
 
-CPU: Intel(R) i5-4300U (Haswell)
-SSD: Samsung SSD 860 EVO 500GB
-RAM: 8GB DDR3
-DISPLAY: 1600x900 (Touchscreen)
-GPU: Integrated, Intel HD Graphics 4400
-AUDIO CODEC: IDT92HD91BXX
-ETHERNET: Intel I218-LM
-WIFI: Intel Wi-Fi Drivers are NOW compatible for macOS, check [itlwm.](https://github.com/OpenIntelWireless/itlwm)
+- CPU: Intel(R) i5-4300U (Haswell)
+- SSD: Samsung SSD 860 EVO 500GB
+- RAM: 8GB DDR3
+- DISPLAY: 1600x900 (Touchscreen)
+- GPU: Integrated, Intel HD Graphics 4400
+- AUDIO CODEC: IDT92HD91BXX
+- ETHERNET: Intel I218-LM
+- WIFI: Intel Wi-Fi Drivers are NOW compatible for macOS, check [itlwm.](https://github.com/OpenIntelWireless/itlwm)
 
 ## BIOS Settings:
 
