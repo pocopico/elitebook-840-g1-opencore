@@ -33,46 +33,43 @@ DISPLAY: 1600x900 (Touchscreen)
 GPU: Integrated, Intel HD Graphics 4400
 AUDIO CODEC: IDT92HD91BXX
 ETHERNET: Intel I218-LM
-WIFI: Intel Wi-Fi Drivers are NOW compatible for macOS, check itlwm.
+WIFI: Intel Wi-Fi Drivers are NOW compatible for macOS, check [itlwm.](https://github.com/OpenIntelWireless/itlwm)
 
 ## BIOS Settings:
 
 - Disable
-
-* Fast Boot
-* Secure Boot
-* Serial/COM Port
-* Disable wake on USB
-* Parallel Port
-* VT-d (can be enabled if you set DisableIoMapper to YES)
-* CSM
-* Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
-* Intel SGX
-* Intel Platform Trust
-* CFG Lock (This must be off, otherwise your hack will not boot with CFG-Lock enabled) if you can't find the option then enable AppleXcpmCfgLock under:
+  - Fast Boot
+  - Secure Boot
+  - Serial/COM Port
+  - Disable wake on USB
+  - Parallel Port
+  - VT-d (can be enabled if you set DisableIoMapper to YES)
+  - CSM
+  - Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
+  - Intel SGX
+  - Intel Platform Trust
+  - CFG Lock (This must be off, otherwise your hack will not boot with CFG-Lock enabled) if you can't find the option then enable AppleXcpmCfgLock under:
 
 >     Kernel -> Quirks -> AppleXcpmCfgLock=True
 
 - Enable
-
-* VT-x
-
-* Above 4G decoding
-* Hyper-Threading
-* Execute Disable Bit
-* EHCI/XHCI Hand-off
-* OS type: Windows 8.1/10 UEFI Mode
-* DVMT Pre-Allocated(iGPU Memory): 64MB
-* SATA Mode: AHCI
-* Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS.
+  - VT-x
+  - Above 4G decoding
+  - Hyper-Threading
+  - Execute Disable Bit
+  - EHCI/XHCI Hand-off
+  - OS type: Windows 8.1/10 UEFI Mode
+  - DVMT Pre-Allocated(iGPU Memory): 64MB
+  - SATA Mode: AHCI
+  - Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS.
 
 **Save and reboot in UEFI.**
 
 ## Credit:
 
-- Apple for MacOS
-- vit9696 for OpenCore
-- Dortania's Guide for OpenCore Install
-- InsanelyMac's OpenCore forums for finding issues with hardware and their work arounds
-- RehabMan for DSDT-Patches
-- itlwm Intel Wi-Fi Drivers for macOS
+   - [Apple](https://www.apple.com/) for MacOS
+   - [vit9696](https://github.com/vit9696) for OpenCore
+   - [Dortania's Guide](https://dortania.github.io/OpenCore-Install-Guide/) for OpenCore Install
+   - [InsanelyMac's OpenCore forums](https://www.insanelymac.com/forum/topic/338516-opencore-discussion/) for finding issues with hardware and their work arounds
+   - [RehabMan](https://github.com/RehabMan) for DSDT-Patches
+   - [itlwm](https://github.com/OpenIntelWireless/itlwm) Intel Wi-Fi Drivers for macOS
