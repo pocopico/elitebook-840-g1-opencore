@@ -1,10 +1,9 @@
-# elitebook-840-g1-opencore
-Elitebook 840 G1 Opencore 0.7.5
+#Elitebook 840 G1 Haswell,  Opencore 0.7.5
 
 Confirmed to be working with Big Sur 11.6.1
 
 
-What Works :
+#What Works :
 
 - UEFI booting via OpenCore
 - Dual Boot with Windows/Linux
@@ -24,7 +23,49 @@ What Works :
 - App Store
 - iMessage & Facetime
 
-Credit:
+
+#Hardware:
+
+CPU: Intel(R) i5-4300U (Haswell)
+SSD: Samsung SSD 860 EVO 500GB
+RAM: 8GB DDR3
+DISPLAY: 1600x900 (Touchscreen)
+GPU: Integrated, Intel HD Graphics 4400
+AUDIO CODEC: IDT92HD91BXX
+ETHERNET: Intel I218-LM
+WIFI: Intel Wi-Fi Drivers are NOW compatible for macOS, check itlwm.
+
+#BIOS Settings:
+
+- Disable
+
+Fast Boot
+Secure Boot
+Serial/COM Port
+Disable wake on USB
+Parallel Port
+VT-d (can be enabled if you set DisableIoMapper to YES)
+CSM
+Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
+Intel SGX
+Intel Platform Trust
+CFG Lock (This must be off, otherwise your hack will not boot with CFG-Lock enabled) if you can't find the option then enable AppleXcpmCfgLock under:
+      Kernel -> Quirks -> AppleXcpmCfgLock=True
+- Enable
+
+VT-x
+Above 4G decoding
+Hyper-Threading
+Execute Disable Bit
+EHCI/XHCI Hand-off
+OS type: Windows 8.1/10 UEFI Mode
+DVMT Pre-Allocated(iGPU Memory): 64MB
+SATA Mode: AHCI
+Note: Most of these options may not be present in your firmware, we recommend matching up as closely as possible but don't be too concerned if many of these options are not available in your BIOS.
+
+Save and reboot in UEFI.
+
+#Credit:
 
 - Apple for MacOS
 - vit9696 for OpenCore
