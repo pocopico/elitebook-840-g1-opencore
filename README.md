@@ -3,7 +3,7 @@
 Confirmed to be working with Big Sur 11.6.1
 
 
-# What Works :
+## What Works :
 
 - UEFI booting via OpenCore
 - Dual Boot with Windows/Linux
@@ -24,7 +24,7 @@ Confirmed to be working with Big Sur 11.6.1
 - iMessage & Facetime
 
 
-# Hardware:
+## Hardware:
 
 CPU: Intel(R) i5-4300U (Haswell)
 SSD: Samsung SSD 860 EVO 500GB
@@ -35,7 +35,7 @@ AUDIO CODEC: IDT92HD91BXX
 ETHERNET: Intel I218-LM
 WIFI: Intel Wi-Fi Drivers are NOW compatible for macOS, check itlwm.
 
-# BIOS Settings:
+## BIOS Settings:
 
 - Disable
 
@@ -68,7 +68,7 @@ WIFI: Intel Wi-Fi Drivers are NOW compatible for macOS, check itlwm.
 
 **Save and reboot in UEFI.**
 
-# Credit:
+## Credit:
 
 - Apple for MacOS
 - vit9696 for OpenCore
